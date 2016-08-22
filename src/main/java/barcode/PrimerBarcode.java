@@ -51,6 +51,10 @@ public class PrimerBarcode {
 	           code39ext.setCode("The willows.");
 	           code39ext.setStartStopText(false);
 	           code39ext.setExtended(true);
+	           
+	           
+	           
+	           
 	           Image image39ext = code39ext.createImageWithBarcode(cb, null, null);
 	           Barcode128 code128 = new Barcode128();
 	           code128.setCode("1Z234786 hello");
